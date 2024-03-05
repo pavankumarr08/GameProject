@@ -17,4 +17,4 @@ const NavBar = ({ onSearch }:Props) => {
   )
 }
 
-export default NavBar
+export default NavBar;

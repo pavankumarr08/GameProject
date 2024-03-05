@@ -24,14 +24,16 @@ function App() {
     throw new Error("Function not implemented.");
   }
 
-  return (<Grid templateAreas={{
-    base:`"nav" "main"`,
-    lg:`"nav nav" "aside main"`,
-  }}
-  templateColumns={{
-    base: '1fr',
-    lg: '200px 1fr'
-  }}
+  return (
+  <Grid 
+    templateAreas={{
+      base:`"nav" "main"`,
+      lg:`"nav nav" "aside main"`,
+    }}
+    templateColumns={{
+      base: '1fr',
+      lg: '200px 1fr'
+    }}
   >
     <GridItem area='nav'>
       <NavBar  onSearch={(searchText) => setGameQuery({ ...gameQuery, searchText })}/>
@@ -55,6 +57,6 @@ function App() {
       <GameGrid gameQuery={gameQuery}/>
     </GridItem>
   </Grid>
-)}
+);};
 
-export default App
+export default App;

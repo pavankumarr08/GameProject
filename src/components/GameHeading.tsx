@@ -14,4 +14,4 @@ const GameHeading = ({gameQuery}: Props) => {
   )
 }
 
-export default GameHeading
+export default GameHeading;

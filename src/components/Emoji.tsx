@@ -21,4 +21,4 @@ const Emoji = ({rating}:Props) => {
   )
 }
 
-export default Emoji
+export default Emoji;

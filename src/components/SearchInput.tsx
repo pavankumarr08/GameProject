@@ -23,4 +23,4 @@ const SearchInput = ({ onSearch }: Props) => {
   )
 }
 
-export default SearchInput
+export default SearchInput;
